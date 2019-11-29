@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: bisque;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.Container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 128px);
+    grid-template-rows: repeat(-1, 128px);
+}
